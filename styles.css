@@ -19,16 +19,10 @@ nav{
     z-index: 1;
     display: flex;
     align-items: center;
-}
-.logo{
-    flex-basis: 20%;
-}
-.logo img {
-    width: 100px;
+    justify-content: center;
 }
 .nav-links {
-    flex: 1;
-    text-align: right;
+    text-align: center;
 
 }
 .nav-links ul li {

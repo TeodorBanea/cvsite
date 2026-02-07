@@ -1,15 +1,16 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teodor Banea - Senior Crawler Developer CV</title>
+	<meta name="description" content="Teodor Banea - Senior Crawler Developer with 4+ years of experience in web scraping, Node.js, and e-commerce integrations at ChannelSight, Bucharest, Romania">
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<div class="main">
 		<nav>
-			<div class="logo">
-				<img src="images/logo.png">
-			</div>
 			<div class="nav-links">
 				<ul>
 					<li><a href="index.html">Home</a></li>
@@ -18,66 +19,119 @@
 			</div>
 		</nav>
 
-		<div class="information">
-			<div class="overlay"></div>
-			<img src="images/teo.png" class="teo">
-			<div id="circle">
-				<div class="feature one">
-					<img src="images/python.png">
-					<div>
-						<h1>Python3</h1>
-						<p>6+ months exp</p>
-					</div>
-				</div>
-				<div class="feature two">
-					<img src="images/javascript.png">
-					<div>
-						<h1>Javascript</h1>
-						<p>1+ year exp</p>
-					</div>
-				</div>
-				<div class="feature three">
-					<img src="images/codewars.png">
-					<div>
-						<p><a href="https://www.codewars.com/users/Teodorica">Profile</a></p>
-					</div>
-				</div>
-				<div class="feature four">
-					<img src="images/git.png">
-					<div>
-						<p><a href="https://github.com/TeodorBanea">Profile</a></p>
-					</div>
-				</div>
+		<!-- Hero Section -->
+		<section class="hero">
+			<img src="images/teo.png" alt="Teodor Banea" class="profile-image">
+			<h1>Teodor Banea</h1>
+			<p class="subtitle">Senior Crawler Developer</p>
+			<p class="details">Specializing in Web Scraping, Node.js, and E-commerce Integrations</p>
+			<p class="details">28 years old | Bucharest, Romania</p>
+			<div class="social-links">
+				<a href="https://github.com/TeodorBanea" target="_blank">GitHub</a>
+				<a href="https://www.codewars.com/users/Teodorica" target="_blank">CodeWars</a>
+				<a href="#" target="_blank">LinkedIn</a>
+			</div>
+		</section>
+	</div>
+
+	<!-- About Section -->
+	<section id="about">
+		<h2>About Me</h2>
+		<div class="about-content">
+			<p>
+				I'm a passionate Senior Crawler Developer with over 4 years of professional experience, specializing in building robust web scraping solutions and e-commerce integrations. My expertise lies in developing scalable Node.js applications that extract, transform, and deliver product data from diverse sources.
+			</p>
+			<p>
+				Throughout my career, I've focused on creating automated data pipelines, designing efficient APIs, and leveraging modern technologies to solve complex data extraction challenges. I'm driven by the opportunity to turn raw data into actionable insights that drive business value.
+			</p>
+		</div>
+	</section>
+
+	<!-- Experience Section -->
+	<section id="experience">
+		<h2>Work Experience</h2>
+		<div class="experience-item">
+			<h3>Senior Crawler Developer - ChannelSight</h3>
+			<p class="duration">2022 - Present (4 years) | Bucharest, Romania</p>
+			<ul>
+				<li>Architect and develop web scraping solutions using Apify and Cheerio to extract product data from 50+ e-commerce retailers, ensuring 99% data accuracy and reliability</li>
+				<li>Build Node.js applications and RESTful/GraphQL APIs for automated data integration pipelines serving Fortune 500 clients with real-time product information</li>
+				<li>Design and optimize SQL database schemas for high-volume data storage, managing 10M+ product records with efficient query performance</li>
+				<li>Create Power BI dashboards and analytics tools that provide actionable insights to clients, enabling data-driven e-commerce decisions</li>
+				<li>Implement robust error handling and monitoring systems to maintain 24/7 uptime for critical data extraction services</li>
+				<li>Collaborate with cross-functional teams using Jira and Agile methodologies to deliver features on time and meet client requirements</li>
+				<li>Utilize VS Code, Thunder Client, Git, and npm for efficient development workflows and maintain comprehensive code documentation</li>
+			</ul>
+		</div>
+	</section>
+
+	<!-- Skills Section -->
+	<section id="skills">
+		<h2>Technical Skills</h2>
+		<div class="skills-grid">
+			<div class="skill-category">
+				<h4>Languages & Frameworks</h4>
+				<span class="badge">JavaScript (5+ years)</span>
+				<span class="badge">Node.js (4+ years)</span>
+				<span class="badge">Python (5+ years)</span>
+				<span class="badge">SQL (4+ years)</span>
+			</div>
+
+			<div class="skill-category">
+				<h4>Web Scraping & Automation</h4>
+				<span class="badge">Apify</span>
+				<span class="badge">Cheerio</span>
+				<span class="badge">Puppeteer</span>
+				<span class="badge">Data Extraction</span>
+			</div>
+
+			<div class="skill-category">
+				<h4>Development Tools</h4>
+				<span class="badge">VS Code</span>
+				<span class="badge">Thunder Client</span>
+				<span class="badge">Git</span>
+				<span class="badge">npm</span>
+			</div>
+
+			<div class="skill-category">
+				<h4>Data & APIs</h4>
+				<span class="badge">GraphQL</span>
+				<span class="badge">REST APIs</span>
+				<span class="badge">Power BI</span>
+				<span class="badge">SQL Databases</span>
+			</div>
+
+			<div class="skill-category">
+				<h4>Project Management</h4>
+				<span class="badge">Jira</span>
+				<span class="badge">Agile/Scrum</span>
+				<span class="badge">Git Workflows</span>
 			</div>
 		</div>
+	</section>
 
-		<div class="controls">
-			<img src="images/arrow.png" id="upBtn">
-			<h3>About me</h3>
-			<img src="images/arrow.png" id="downBtn">
+	<!-- Education Section -->
+	<section id="education">
+		<h2>Education & Certifications</h2>
+		<div class="education-item">
+			<h4>Computer Science / Software Engineering</h4>
+			<p class="year">University Degree</p>
+			<p>Comprehensive education in software development, algorithms, data structures, and web technologies.</p>
 		</div>
-		
-	</div>
-	<script>
-		var circle = document.getElementById("circle");
-		var upBtn = document.getElementById("upBtn");
-		var downBtn = document.getElementById("downBtn");
-		
-		var rotateValue = circle.style.transform;
-		var rotateSum;
+		<div class="education-item">
+			<h4>Professional Development</h4>
+			<p class="year">Continuous Learning</p>
+			<p>Actively engaged in continuous learning through online courses, technical documentation, and hands-on projects in web scraping, Node.js, and modern JavaScript frameworks.</p>
+		</div>
+	</section>
 
-		upBtn.onclick = function()
-		{
-			rotateSum = rotateValue + "rotate(-90deg)";
-			circle.style.transform = rotateSum;
-			rotateValue = rotateSum;
-		}
-		downBtn.onclick = function()
-		{
-			rotateSum = rotateValue + "rotate(90deg)";
-			circle.style.transform = rotateSum;
-			rotateValue = rotateSum;
-		}
-	</script>
+	<!-- Contact CTA Section -->
+	<section class="contact-cta">
+		<h2>Let's Connect</h2>
+		<p style="color: white; font-size: 1.1rem; margin-top: 15px;">
+			Interested in discussing web scraping, e-commerce integrations, or potential collaborations?
+		</p>
+		<a href="contact.html">Get In Touch</a>
+	</section>
 </body>
 </html>
